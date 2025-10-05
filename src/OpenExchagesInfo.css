@@ -1,0 +1,84 @@
+.MainWrap{
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(229, 227, 227, 0.4);
+    backdrop-filter: blur(3px);
+    border: 0.1px solid rgba(255,255,255,0.2);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+    max-height: 450px;
+    overflow-y: auto;
+    min-width: 380px;
+    flex-direction: column;
+    transition: all 0.3s;
+    z-index: 999 !important;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 2px 2px #0000001f;
+}
+.ImgAndName{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+
+}
+.ImgAndName img{
+    width: 50px;
+    border-radius: 10px;
+}
+.ExcangerNameAndCountry{
+    font-size: clamp(13px,2vw,20px) ;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.ScoreAndVlume24H{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Volune24H{
+    display: flex;
+    justify-content: start;
+    gap: 7px;
+    align-items: center;
+}
+.score{
+    display: flex;
+    justify-content: start;
+    gap: 7px;
+    align-items: center;
+}
+.year{
+    display: flex;
+    gap:7px;
+    align-items: center;
+    justify-content: start;
+}
+.Url{
+    display: flex;
+    gap:7px;
+    align-items: center;
+    justify-content: start;
+}
+.URLandYear{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.Info{
+    padding-bottom: 8px;
+}

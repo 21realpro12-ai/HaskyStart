@@ -1,0 +1,41 @@
+.Main{
+    width: 100%;
+}
+.WrapTop10Coin{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50%;
+    padding: 20px;
+    transform: translate(-50%);
+    width: 80%;
+    align-items: center;
+    overflow-x: auto;
+    border: 0.5px solid #000;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    gap: 40px;
+    transition: all 0.2s;
+}
+.WrapTop10Coin:hover{
+    border: 1px solid #70c2d8;
+}
+.CoinCard{
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    border: 0.5px solid #000;
+    background-color: 20px;
+}
+.CoinCard img{
+    width: 48px;
+}
+.CoinCardWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.WrapperInfoText{
+    display: flex;
+    flex-direction: column;
+}

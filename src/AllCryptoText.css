@@ -1,0 +1,14 @@
+.MainAllCRyptoText{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+    justify-content: start;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+.MainAllCRyptoText:hover{
+    border:0.5px solid #70c2d8;
+}

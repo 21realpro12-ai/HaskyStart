@@ -1,0 +1,43 @@
+.TopMenu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    height: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 0.5px solid #000;
+    border-radius: 15px;
+}
+.MainText{
+    font-size: clamp(8px,2vw,20px);
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transition: all 0.3s;
+}
+.Menu .nav:active{
+    color:#70c2d8
+}
+.nav a{
+    text-decoration: none;
+}
+.button button{
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    background-color: #70c2d8;
+    color: #fff;
+    border: none;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+.button button:active{
+    background-color: #000;
+}
