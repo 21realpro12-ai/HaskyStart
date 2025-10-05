@@ -27,7 +27,11 @@ const ExchangesWrap = () => {
                         <div className="ExchangesCard" onClick={() => openModal(exchanges)}>
                             <div className="ExchangesCardWrapper">
                                 <div className="WrapperInfoText">
-                                    <h1>{exchanges.name}</h1> - Country: {exchanges.country}   
+                                    <div className="NameAndImg">
+                                        <h1>{exchanges.name}</h1>
+                                        <img src={exchanges.image} alt="" />
+                                    </div>
+                                     - Country: {exchanges.country}   
                                 </div>
                             </div>
                         </div>                          

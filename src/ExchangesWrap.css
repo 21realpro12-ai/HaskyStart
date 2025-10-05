@@ -11,6 +11,17 @@
     scroll-behavior: smooth;
     transition: all 0.2s;
 }
+.NameAndImg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: strart;
+    gap: 7px;
+}
+.NameAndImg img{
+    width: 50px;
+    border-radius: 10px;
+}
 .ExchangesCard{
     padding: 20px;
     width: 90%;
